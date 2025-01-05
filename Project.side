@@ -165,86 +165,6 @@
         ["xpath=//button[contains(.,'ثبت نام')]", "xpath:innerText"]
       ],
       "value": ""
-    }, {
-      "id": "ba3dccf6-2fd1-40c4-a029-7d985b25f41d",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "id=password",
-      "targets": [
-        ["id=password", "id"],
-        ["name=password", "name"],
-        ["css=#password", "css:finder"],
-        ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//input[3]", "xpath:position"]
-      ],
-      "value": "23456789"
-    }, {
-      "id": "7fc26c0c-bc9b-4166-9506-e571d9134258",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "id=Repeatpassword",
-      "targets": [
-        ["id=Repeatpassword", "id"],
-        ["name=Repeatpassword", "name"],
-        ["css=#Repeatpassword", "css:finder"],
-        ["xpath=//input[@id='Repeatpassword']", "xpath:attributes"],
-        ["xpath=//input[4]", "xpath:position"]
-      ],
-      "value": "23456789"
-    }, {
-      "id": "d23d6cf5-7122-4f54-93b9-57c8f6136766",
-      "comment": "",
-      "command": "click",
-      "target": "css=.register-btn",
-      "targets": [
-        ["css=.register-btn", "css:finder"],
-        ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'ثبت نام')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "e197176b-6d3e-4200-a547-1096f12c10f7",
-      "comment": "",
-      "command": "click",
-      "target": "id=label-register",
-      "targets": [
-        ["id=label-register", "id"],
-        ["linkText=ورود", "linkText"],
-        ["css=#label-register", "css:finder"],
-        ["xpath=//a[contains(text(),'ورود')]", "xpath:link"],
-        ["xpath=//a[@id='label-register']", "xpath:attributes"],
-        ["xpath=//a[contains(@href, '/Account/Login')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'ورود')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "21824de5-0e32-4f43-bd22-fe030e9c832b",
-      "comment": "",
-      "command": "select",
-      "target": "id=phonenumber",
-      "targets": [
-        ["id=phonenumber", "id"],
-        ["name=phonenumber", "name"],
-        ["css=#phonenumber", "css:finder"],
-        ["xpath=//input[@id='phonenumber']", "xpath:attributes"],
-        ["xpath=//form/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "f01fc9b0-f7ec-4069-a81f-3623b656f967",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "id=phonenumber",
-      "targets": [
-        ["id=phonenumber", "id"],
-        ["name=phonenumber", "name"],
-        ["css=#phonenumber", "css:finder"],
-        ["xpath=//input[@id='phonenumber']", "xpath:attributes"],
-        ["xpath=//form/input", "xpath:position"]
-      ],
-      "value": "09137398344"
     }]
   }, {
     "id": "4dea9452-c557-4417-9184-82428272d8c3",
@@ -298,31 +218,6 @@
       "value": "23456789"
     }, {
       "id": "012cb85b-bb37-42b7-b8ec-174648d03613",
-      "comment": "",
-      "command": "click",
-      "target": "css=.login-btn",
-      "targets": [
-        ["css=.login-btn", "css:finder"],
-        ["xpath=//button[@type='submit']", "xpath:attributes"],
-        ["xpath=//button", "xpath:position"],
-        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "c89fe955-c638-4613-b2c1-ac80ab9ff42a",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "id=password",
-      "targets": [
-        ["id=password", "id"],
-        ["name=password", "name"],
-        ["css=#password", "css:finder"],
-        ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//input[2]", "xpath:position"]
-      ],
-      "value": "23456789"
-    }, {
-      "id": "09440ab8-92d2-40bc-86da-ee35d7662d8f",
       "comment": "",
       "command": "click",
       "target": "css=.login-btn",
